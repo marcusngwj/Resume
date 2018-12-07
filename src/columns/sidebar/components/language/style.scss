@@ -1,0 +1,20 @@
+@import 'theme/styles/theme';
+
+.language-proficiency{
+  margin-top: $SIDEBAR_COMPONENT_MARGIN_TOP;
+  padding-left: $SIDEBAR_COMPONENT_PADDING_LEFT;
+
+  #title {
+    padding: 0;
+    margin: 0;
+    color: $COLOR_BRAND_BLUE;
+    font-size: $SIDEBAR_TITLE_FONT_SIZE;
+  }
+
+  .content {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+
+  }
+}

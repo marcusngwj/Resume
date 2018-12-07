@@ -1,0 +1,22 @@
+@import 'theme/styles/theme';
+
+.personal-data{
+  padding-left: $SIDEBAR_COMPONENT_PADDING_LEFT;
+
+  #title {
+    padding: 0;
+    margin: 0;
+    color: $COLOR_BRAND_BLUE;
+    font-size: $SIDEBAR_TITLE_FONT_SIZE;
+  }
+
+  .content {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+
+    span {
+      margin: 0px 0px 0px 5px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import 'theme/styles/theme';
+
+.head-banner {
+  display:grid;
+  grid-template-areas:
+  	'avatar content content content'
+  	'avatar content content content'
+  	'desc desc desc desc';
+  grid-gap:5px;
+
+  .avatar {
+    grid-area: avatar;
+  }
+
+  .content {
+    grid-area: content;
+  	padding: 0px 0px 0px 5px;
+
+  	#fullname {
+  	  padding: 0;
+  	  margin: 0;
+  	  font-size: 27px;
+      color: $COLOR_BRAND_BLUE;
+  	}
+
+  	.text {
+  	  padding: 0;
+  	  margin: 0;
+  	  font-size: 15px;
+  	}
+
+  	#location {
+  	  margin: 0px 5px;
+  	}
+  }
+
+  .description {
+    grid-area: desc;
+  	padding: 0;
+  	margin: 0;
+  	font-size: 12px;
+  }
+}

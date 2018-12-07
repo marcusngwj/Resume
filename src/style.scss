@@ -1,0 +1,24 @@
+@import 'theme/styles/theme';
+
+.page {
+  color: $COLOR_BRAND_BLACK;
+  font-family: $FONT;
+  display:grid;
+  grid-template-areas:
+  	'mainbar mainbar mainbar sidebar';
+  grid-gap:5px;
+
+  .mainbar {
+    grid-area: mainbar;
+    background-color: yellow;
+    padding: 1em 0em 1em 1em;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+    padding: 1em 1em 1em 0em;
+    border-style: solid;
+    border-color: #a0a0a0;
+    border-width: 0px 0px 0px 1px;
+  }
+}
