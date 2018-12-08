@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import HeadBanner from './components/head_banner/HeadBanner';
+import Education from './components/education/Education';
 
 export default class MainBar extends Component {
   // constructor(props) {
@@ -11,7 +12,7 @@ export default class MainBar extends Component {
     return (
       <div className="mainbar">
         <HeadBanner />
-
+        <Education />
       </div>
     );
   }

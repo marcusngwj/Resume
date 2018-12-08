@@ -1,0 +1,50 @@
+@import 'theme/styles/theme';
+
+.education {
+  margin: MAINBAR_COMPONENT_MARGIN_TOP 0px 0px 0px;
+
+  .title {
+    padding: 0;
+    margin: 0;
+    color: $COLOR_BRAND_BLUE;
+    font-size: $MAINBAR_COMPONENT_TITLE_FONT_SIZE;
+    font-weight: bold;
+  }
+
+  .content {
+    padding: 0;
+    margin: 0;
+    font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
+    display: grid;
+    grid-template-areas:
+    'period sch sch sch'
+    'period desc desc desc'
+    'period score score score';
+
+    .period {
+      grid-area: period;
+      padding: 0;
+      margin: 0;
+    }
+
+    .institution {
+      grid-area: sch;
+      padding: 0;
+      margin: 0;
+      font-size: $MAINBAR_SUBCOMPONENT_TITLE_FONT_SIZE;
+      font-weight: bold;
+    }
+
+    .description {
+      grid-area: desc;
+      padding: 0;
+      margin: 0;
+    }
+
+    .score {
+      grid-area: score;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

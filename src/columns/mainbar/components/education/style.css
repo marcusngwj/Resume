@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+.education {
+  margin: MAINBAR_COMPONENT_MARGIN_TOP 0px 0px 0px; }
+  .education .title {
+    padding: 0;
+    margin: 0;
+    color: #003d74;
+    font-size: 15px; }
+  .education .content {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    display: grid;
+    grid-template-areas: 'period sch sch sch' 'period desc desc desc' 'period score score score'; }
+    .education .content .period {
+      grid-area: period;
+      padding: 0;
+      margin: 0; }
+    .education .content .institution {
+      grid-area: sch;
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      font-weight: bold; }
+    .education .content .description {
+      grid-area: desc;
+      padding: 0;
+      margin: 0; }
+    .education .content .score {
+      grid-area: score;
+      padding: 0;
+      margin: 0; }
