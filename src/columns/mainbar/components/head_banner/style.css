@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 .head-banner {
   display: grid;
-  grid-template-areas: 'avatar content content content' 'avatar content content content' 'desc desc desc desc';
+  grid-template-areas: 'avatar content content content' 'desc desc desc desc';
   grid-gap: 5px; }
   .head-banner .avatar {
+    border-radius: 50%;
+    height: 100px;
     grid-area: avatar; }
   .head-banner .content {
     grid-area: content;
@@ -12,6 +14,7 @@
       padding: 0;
       margin: 0;
       font-size: 27px;
+      font-weight: bold;
       color: #003d74; }
     .head-banner .content .text {
       padding: 0;

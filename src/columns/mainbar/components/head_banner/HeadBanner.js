@@ -13,11 +13,9 @@ export default class HeadBanner extends Component {
   render() {
     return (
       <div className="head-banner">
-        <div className="avatar">
-          <img src={avatar} />
-        </div>
+        <img className="avatar" src={avatar} />
         <div className="content">
-          <h1 id="fullname">Marcus Ng Wen Jian</h1>
+          <p id="fullname">Marcus Ng Wen Jian</p>
           <p className="text">Final Year NUS Computer Science Undergraduate</p>
           <p className="text">BComputing (Honours) in Computer Science program</p>
           <p className="text"><img src={droppin} /><span>Singapore</span></p>
