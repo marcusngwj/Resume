@@ -13,6 +13,8 @@
 }
 
 .project {
+  margin-top: $MAINBAR_SUBCOMPONENT_MARGIN_TOP;
+
   .period {
     font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
     width: 70px;
@@ -49,6 +51,7 @@
       margin: 0;
 
       ul {
+        margin-top: 3px;
         padding-left: 12px;
       }
     }

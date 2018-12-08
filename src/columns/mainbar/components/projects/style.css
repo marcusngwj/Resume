@@ -8,31 +8,33 @@
     font-size: 15px;
     font-weight: bold; }
 
-.project .period {
-  font-size: 11px;
-  width: 70px;
-  vertical-align: top; }
-  .project .period p {
-    padding: 0;
-    margin: 0; }
-
-.project .content {
-  padding: 0;
-  margin: 0;
-  font-size: 11px; }
-  .project .content .role {
-    grid-area: role;
+.project {
+  margin-top: 0.5em; }
+  .project .period {
+    font-size: 11px;
+    width: 70px;
+    vertical-align: top; }
+    .project .period p {
+      padding: 0;
+      margin: 0; }
+  .project .content {
     padding: 0;
     margin: 0;
-    font-size: 12px;
-    font-weight: bold; }
-  .project .content .name {
-    grid-area: name;
-    padding: 0;
-    margin: 0; }
-  .project .content .description {
-    grid-area: desc;
-    padding: 0;
-    margin: 0; }
-    .project .content .description ul {
-      padding-left: 12px; }
+    font-size: 11px; }
+    .project .content .role {
+      grid-area: role;
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      font-weight: bold; }
+    .project .content .name {
+      grid-area: name;
+      padding: 0;
+      margin: 0; }
+    .project .content .description {
+      grid-area: desc;
+      padding: 0;
+      margin: 0; }
+      .project .content .description ul {
+        margin-top: 3px;
+        padding-left: 12px; }
