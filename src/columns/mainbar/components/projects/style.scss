@@ -32,7 +32,6 @@
     font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
 
     .role {
-      grid-area: role;
       padding: 0;
       margin: 0;
       font-size: $MAINBAR_SUBCOMPONENT_TITLE_FONT_SIZE;
@@ -40,13 +39,11 @@
     }
 
     .name {
-      grid-area: name;
       padding: 0;
       margin: 0;
     }
 
     .description {
-      grid-area: desc;
       padding: 0;
       margin: 0;
 
