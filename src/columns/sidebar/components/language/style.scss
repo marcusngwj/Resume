@@ -15,21 +15,15 @@
   .content {
     margin-top: $SIDEBAR_CONTENT_MARGIN_TOP;
 
-    .language {
-      display: grid;
-      grid-template-areas:
-        'text dot';
+    table {
+      width: 100%;
 
-      .text {
-        padding-top: 3px;
-        margin: 0;
-        font-size: $SIDEBAR_TEXT_FONT_SIZE;
-        width: 70px;
-        grid-area: text;
-      }
+      tr {
+        height: 20px;
 
-      .proficiency {
-        grid-area: dot;
+        .language {
+          font-size: $SIDEBAR_TEXT_FONT_SIZE;
+        }
 
         .shaded {
           height: 7px;
@@ -56,8 +50,5 @@
         }
       }
     }
-    
-
-    
   }
 }

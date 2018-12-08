@@ -10,18 +10,13 @@
     font-weight: bold; }
   .language-proficiency .content {
     margin-top: 0.5em; }
-    .language-proficiency .content .language {
-      display: grid;
-      grid-template-areas: 'text dot'; }
-      .language-proficiency .content .language .text {
-        padding-top: 3px;
-        margin: 0;
-        font-size: 11px;
-        width: 70px;
-        grid-area: text; }
-      .language-proficiency .content .language .proficiency {
-        grid-area: dot; }
-        .language-proficiency .content .language .proficiency .shaded {
+    .language-proficiency .content table {
+      width: 100%; }
+      .language-proficiency .content table tr {
+        height: 20px; }
+        .language-proficiency .content table tr .language {
+          font-size: 11px; }
+        .language-proficiency .content table tr .shaded {
           height: 7px;
           width: 7px;
           margin-right: 3px;
@@ -31,7 +26,7 @@
           border-style: solid;
           border-color: #003d74;
           display: inline-block; }
-        .language-proficiency .content .language .proficiency .unshaded {
+        .language-proficiency .content table tr .unshaded {
           height: 7px;
           width: 7px;
           margin-right: 3px;
