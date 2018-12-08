@@ -23,7 +23,7 @@
       .text {
         padding-top: 3px;
         margin: 0;
-        font-size: 11px;
+        font-size: $SIDEBAR_TEXT_FONT_SIZE;
         width: 70px;
         grid-area: text;
       }
