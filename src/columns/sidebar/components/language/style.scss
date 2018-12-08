@@ -13,9 +13,51 @@
   }
 
   .content {
-    padding: 0;
-    margin: 0;
-    font-size: 11px;
+    margin-top: $SIDEBAR_CONTENT_MARGIN_TOP;
 
+    .language {
+      display: grid;
+      grid-template-areas:
+        'text dot';
+
+      .text {
+        padding-top: 3px;
+        margin: 0;
+        font-size: 11px;
+        width: 70px;
+        grid-area: text;
+      }
+
+      .proficiency {
+        grid-area: dot;
+
+        .shaded {
+          height: 7px;
+          width: 7px;
+          margin-right: 3px;
+          background-color: $COLOR_BRAND_LIGHT_BLUE;
+          border-radius: 50%;
+          border-width:2px;
+          border-style: solid;
+          border-color: $COLOR_BRAND_BLUE;
+          display: inline-block;
+        }
+
+        .unshaded {
+          height: 7px;
+          width: 7px;
+          margin-right: 3px;
+          background-color: white;
+          border-radius: 50%;
+          border-width:2px;
+          border-style: solid;
+          border-color: $COLOR_BRAND_BLUE;
+          display: inline-block;
+        }
+      }
+    }
+    
+
+    
   }
 }

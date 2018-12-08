@@ -9,6 +9,35 @@
     font-size: 16px;
     font-weight: bold; }
   .language-proficiency .content {
-    padding: 0;
-    margin: 0;
-    font-size: 11px; }
+    margin-top: 0.5em; }
+    .language-proficiency .content .language {
+      display: grid;
+      grid-template-areas: 'text dot'; }
+      .language-proficiency .content .language .text {
+        padding-top: 3px;
+        margin: 0;
+        font-size: 11px;
+        width: 70px;
+        grid-area: text; }
+      .language-proficiency .content .language .proficiency {
+        grid-area: dot; }
+        .language-proficiency .content .language .proficiency .shaded {
+          height: 7px;
+          width: 7px;
+          margin-right: 3px;
+          background-color: #4472c4;
+          border-radius: 50%;
+          border-width: 2px;
+          border-style: solid;
+          border-color: #003d74;
+          display: inline-block; }
+        .language-proficiency .content .language .proficiency .unshaded {
+          height: 7px;
+          width: 7px;
+          margin-right: 3px;
+          background-color: white;
+          border-radius: 50%;
+          border-width: 2px;
+          border-style: solid;
+          border-color: #003d74;
+          display: inline-block; }
