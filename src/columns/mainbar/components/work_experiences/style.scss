@@ -13,24 +13,25 @@
 }
 
 .work-experience {
+  margin-top: $MAINBAR_SUBCOMPONENT_MARGIN_TOP;
+
+  .period {
+    font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
+    width: 70px;
+    vertical-align: top;
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
   .content {
     padding: 0;
     margin: 0;
     font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
-    display: grid;
-    grid-template-areas:
-    'period role role role'
-    'period coy coy coy'
-    'period desc desc desc';
-
-    .period {
-      grid-area: period;
-      padding: 0;
-      margin: 0;
-    }
 
     .role {
-      grid-area: role;
       padding: 0;
       margin: 0;
       font-size: $MAINBAR_SUBCOMPONENT_TITLE_FONT_SIZE;
@@ -38,18 +39,17 @@
     }
 
     .company {
-      grid-area: coy;
       padding: 0;
       margin: 0;
     }
 
     .description {
-      grid-area: desc;
       padding: 0;
       margin: 0;
 
       ul {
-        padding-left: 0px;
+        margin-top: 3px;
+        padding-left: 12px;
       }
     }
   }

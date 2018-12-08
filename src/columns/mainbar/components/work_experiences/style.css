@@ -8,29 +8,30 @@
     font-size: 15px;
     font-weight: bold; }
 
-.work-experience .content {
-  padding: 0;
-  margin: 0;
-  font-size: 11px;
-  display: grid;
-  grid-template-areas: 'period role role role' 'period coy coy coy' 'period desc desc desc'; }
-  .work-experience .content .period {
-    grid-area: period;
-    padding: 0;
-    margin: 0; }
-  .work-experience .content .role {
-    grid-area: role;
+.work-experience {
+  margin-top: 0.5em; }
+  .work-experience .period {
+    font-size: 11px;
+    width: 70px;
+    vertical-align: top; }
+    .work-experience .period p {
+      padding: 0;
+      margin: 0; }
+  .work-experience .content {
     padding: 0;
     margin: 0;
-    font-size: 12px;
-    font-weight: bold; }
-  .work-experience .content .company {
-    grid-area: coy;
-    padding: 0;
-    margin: 0; }
-  .work-experience .content .description {
-    grid-area: desc;
-    padding: 0;
-    margin: 0; }
-    .work-experience .content .description ul {
-      padding-left: 0px; }
+    font-size: 11px; }
+    .work-experience .content .role {
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      font-weight: bold; }
+    .work-experience .content .company {
+      padding: 0;
+      margin: 0; }
+    .work-experience .content .description {
+      padding: 0;
+      margin: 0; }
+      .work-experience .content .description ul {
+        margin-top: 3px;
+        padding-left: 12px; }
