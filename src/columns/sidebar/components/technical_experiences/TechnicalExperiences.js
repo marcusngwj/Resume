@@ -13,10 +13,12 @@ export default class TechnicalExperiences extends Component {
         <p className="title">Technical Experiences</p>
         <div className="content">
           <table>
-            <tr>iOS Development</tr>
-            <tr>Android Development</tr>
-            <tr>Web Programming</tr>
-            <tr>Database</tr>
+            <tbody>
+              <tr><td>iOS Development</td></tr>
+              <tr><td>Android Development</td></tr>
+              <tr><td>Web Programming</td></tr>
+              <tr><td>Database</td></tr>
+            </tbody>
           </table>
         </div>
       </div>

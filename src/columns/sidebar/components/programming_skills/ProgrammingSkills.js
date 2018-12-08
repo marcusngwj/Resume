@@ -13,30 +13,32 @@ export default class ProgrammingSkills extends Component {
         <p className="title">Programming Skill Sets</p>
         <div className="content">
           <table>
-            <tr>
-              <td>Java</td>
-              <td>Python</td>
-            </tr>
-            <tr>
-              <td>C++</td>
-              <td>C</td>
-            </tr>
-            <tr>
-              <td>Objective C</td>
-              <td>JavaScript</td>
-            </tr>
-            <tr>
-              <td>HTML, CSS</td>
-              <td>SCSS</td>
-            </tr>
-            <tr>
-              <td>React.js</td>
-              <td>PHP</td>
-            </tr>
-            <tr>
-              <td>PostgreSQL</td>
-              <td>MySQLi</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Java</td>
+                <td>Python</td>
+              </tr>
+              <tr>
+                <td>C++</td>
+                <td>C</td>
+              </tr>
+              <tr>
+                <td>Objective C</td>
+                <td>JavaScript</td>
+              </tr>
+              <tr>
+                <td>HTML, CSS</td>
+                <td>SCSS</td>
+              </tr>
+              <tr>
+                <td>React.js</td>
+                <td>PHP</td>
+              </tr>
+              <tr>
+                <td>PostgreSQL</td>
+                <td>MySQLi</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
