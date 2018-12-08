@@ -14,7 +14,7 @@ export default class Education extends Component {
         <table>
           <tbody>
             <tr className="record">
-              <td className="period"><p>2015 - 2019</p></td>
+              <td className="period"><p>2015 – 2019</p></td>
               <td>
                 <div className="content">
                   <p className="institution">National University of Singapore</p>
