@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 .personal-data {
   padding-left: 0.5em; }
-  .personal-data #title {
+  .personal-data .title {
     padding: 0;
     margin: 0;
     color: #003d74;
-    font-size: 16px; }
+    font-size: 16px;
+    font-weight: bold; }
   .personal-data .content {
     padding: 0;
     margin: 0;

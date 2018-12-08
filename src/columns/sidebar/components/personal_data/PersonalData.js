@@ -14,7 +14,7 @@ export default class PersonalData extends Component {
   render() {
     return (
       <div className="personal-data">
-        <h1 id="title">Personal Information</h1>
+        <p className="title">Personal Information</p>
         <p className="content"><img src={phoneIcon} /><span>(+65) 9750 2493</span></p>
         <p className="content"><img src={mailIcon} /><span>marcusngwj@msn.com</span></p>
         <p className="content"><img src={githubIcon} /><span>github.com/marcusngwj</span></p>

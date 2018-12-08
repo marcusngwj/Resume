@@ -20,7 +20,7 @@ export default class HeadBanner extends Component {
           <h1 id="fullname">Marcus Ng Wen Jian</h1>
           <p className="text">Final Year NUS Computer Science Undergraduate</p>
           <p className="text">BComputing (Honours) in Computer Science program</p>
-          <p className="text"><img src={droppin} /><span id="location">Singapore</span></p>
+          <p className="text"><img src={droppin} /><span>Singapore</span></p>
         </div>
         <div className="description">
           Hardworking individual with experience in Software Engineering, focusing in Mobile Development. Adaptable team player with problem-solving skills
