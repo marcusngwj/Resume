@@ -15,10 +15,12 @@ export default class PersonalData extends Component {
     return (
       <div className="personal-data">
         <p className="title">Personal Information</p>
-        <p className="content"><img src={phoneIcon} /><span>(+65) 9750 2493</span></p>
-        <p className="content"><img src={mailIcon} /><span>marcusngwj@msn.com</span></p>
-        <p className="content"><img src={githubIcon} /><span>github.com/marcusngwj</span></p>
-        <p className="content"><img src={linkedInIcon} /><span>linkedin.com/in/marcusngwenjian</span></p>
+        <div className="content">
+          <p className="text"><img src={phoneIcon} /><span>(+65) 9750 2493</span></p>
+          <p className="text"><img src={mailIcon} /><span>marcusngwj@msn.com</span></p>
+          <p className="text"><img src={githubIcon} /><span>github.com/marcusngwj</span></p>
+          <p className="text"><img src={linkedInIcon} /><span>linkedin.com/in/marcusngwenjian</span></p>
+        </div>
       </div>
     );
   }
