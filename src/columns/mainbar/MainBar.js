@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import HeadBanner from './components/head_banner/HeadBanner';
 import Education from './components/education/Education';
+import Projects from './components/projects/ProjectComponent';
 
 export default class MainBar extends Component {
   // constructor(props) {
@@ -13,6 +14,7 @@ export default class MainBar extends Component {
       <div className="mainbar">
         <HeadBanner />
         <Education />
+        <Projects />
       </div>
     );
   }
