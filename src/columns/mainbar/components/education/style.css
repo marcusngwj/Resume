@@ -7,27 +7,30 @@
     color: #003d74;
     font-size: 15px;
     font-weight: bold; }
-  .education .content {
-    padding: 0;
-    margin: 0;
-    font-size: 11px;
-    display: grid;
-    grid-template-areas: 'period sch sch sch' 'period desc desc desc' 'period score score score'; }
-    .education .content .period {
-      grid-area: period;
-      padding: 0;
-      margin: 0; }
-    .education .content .institution {
-      grid-area: sch;
+  .education .record {
+    margin-top: 0.5em; }
+    .education .record .period {
+      font-size: 11px;
+      width: 70px;
+      vertical-align: top; }
+      .education .record .period p {
+        padding: 0;
+        margin: 0; }
+    .education .record .content {
       padding: 0;
       margin: 0;
-      font-size: 12px;
-      font-weight: bold; }
-    .education .content .description {
-      grid-area: desc;
-      padding: 0;
-      margin: 0; }
-    .education .content .score {
-      grid-area: score;
-      padding: 0;
-      margin: 0; }
+      font-size: 11px; }
+      .education .record .content .period {
+        padding: 0;
+        margin: 0; }
+      .education .record .content .institution {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        font-weight: bold; }
+      .education .record .content .description {
+        padding: 0;
+        margin: 0; }
+      .education .record .content .score {
+        padding: 0;
+        margin: 0; }

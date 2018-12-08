@@ -11,40 +11,46 @@
     font-weight: bold;
   }
 
-  .content {
-    padding: 0;
-    margin: 0;
-    font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
-    display: grid;
-    grid-template-areas:
-    'period sch sch sch'
-    'period desc desc desc'
-    'period score score score';
+  .record {
+    margin-top: $MAINBAR_SUBCOMPONENT_MARGIN_TOP;
 
     .period {
-      grid-area: period;
-      padding: 0;
-      margin: 0;
+      font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
+      width: 70px;
+      vertical-align: top;
+
+      p {
+        padding: 0;
+        margin: 0;
+      }
     }
 
-    .institution {
-      grid-area: sch;
+    .content {
       padding: 0;
       margin: 0;
-      font-size: $MAINBAR_SUBCOMPONENT_TITLE_FONT_SIZE;
-      font-weight: bold;
-    }
+      font-size: $MAINBAR_SUBCOMPONENT_TEXT_FONT_SIZE;
 
-    .description {
-      grid-area: desc;
-      padding: 0;
-      margin: 0;
-    }
+      .period {
+        padding: 0;
+        margin: 0;
+      }
 
-    .score {
-      grid-area: score;
-      padding: 0;
-      margin: 0;
+      .institution {
+        padding: 0;
+        margin: 0;
+        font-size: $MAINBAR_SUBCOMPONENT_TITLE_FONT_SIZE;
+        font-weight: bold;
+      }
+
+      .description {
+        padding: 0;
+        margin: 0;
+      }
+
+      .score {
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 }
