@@ -9,18 +9,22 @@ export default class Project extends Component {
 
   render() {
     return (
-      <div className="project">
-        <div className="content">
-          <p className="period">{this.props.period}</p>
-          <p className="role">{this.props.role}</p>
-          <p className="name">{this.props.name}</p>
-          <div className="description">
-            <ul>
-              {this.props.description.map((desc) => <li key={desc} dangerouslySetInnerHTML={{__html: desc}} />)}
-            </ul>
+      <tr className="project">
+        <td className="period">
+          <p>{this.props.period}</p>
+        </td>
+        <td>
+          <div className="content">
+            <p className="role">{this.props.role}</p>
+            <p className="name">{this.props.name}</p>
+            <div className="description">
+              <ul>
+                {this.props.description.map((desc) => <li key={desc} dangerouslySetInnerHTML={{__html: desc}} />)}
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
+        </td>
+      </tr>
     );
   }
 }
