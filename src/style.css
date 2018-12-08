@@ -7,7 +7,6 @@
   grid-gap: 5px; }
   .page .mainbar {
     grid-area: mainbar;
-    background-color: yellow;
     padding: 1em 0em 1em 1em; }
   .page .sidebar {
     grid-area: sidebar;
