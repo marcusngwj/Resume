@@ -1,21 +1,17 @@
 @import 'theme/styles/theme';
 
 .head-banner {
-  display:grid;
-  grid-template-areas:
-  	'avatar content content content'
-  	'desc desc desc desc';
-  grid-gap:5px;
-
   .avatar {
-    border-radius: 50%;
-    height: 100px;
-    grid-area: avatar;
+    width: 100px;
+    img {
+      border-radius: 50%;
+      height: 100px;
+      grid-area: avatar;
+    }
   }
 
   .content {
-    grid-area: content;
-  	padding: 0px 0px 0px 5px;
+  	padding-left: 10px;
 
   	#fullname {
   	  padding: 0;
@@ -31,13 +27,16 @@
   	  font-size: 15px;
   	}
 
+    img {
+      height: 12px;
+    }
+
   	span {
   	  margin: 0px 5px;
   	}
   }
 
   .description {
-    grid-area: desc;
   	padding: 0;
   	margin: 0;
   	font-size: 12px;
