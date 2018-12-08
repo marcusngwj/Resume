@@ -8,10 +8,9 @@
     font-size: 16px;
     font-weight: bold; }
   .personal-data .content {
-    margin-top: 0.5em; }
-    .personal-data .content .text {
-      padding: 0;
-      margin: 0;
-      font-size: 11px; }
-      .personal-data .content .text span {
-        margin: 0px 0px 0px 5px; }
+    margin-top: 0.5em;
+    font-size: 11px; }
+    .personal-data .content table {
+      width: 100%; }
+      .personal-data .content table tr {
+        height: 20px; }

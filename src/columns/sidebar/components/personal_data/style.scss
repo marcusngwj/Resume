@@ -13,15 +13,16 @@
 
   .content {
     margin-top: $SIDEBAR_CONTENT_MARGIN_TOP;
+    font-size: $SIDEBAR_TEXT_FONT_SIZE;
 
-    .text {
-      padding: 0;
-      margin: 0;
-      font-size: $SIDEBAR_TEXT_FONT_SIZE;
+    table {
+      width: 100%;
 
-      span {
-        margin: 0px 0px 0px 5px;
+      tr {
+        height: 20px;
       }
     }
   }
+
+  
 }
