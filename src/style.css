@@ -7,10 +7,10 @@
   grid-gap: 5px; }
   .page .mainbar {
     grid-area: mainbar;
-    padding: 1em 0em 1em 1em; }
+    padding: 25px 0px 25px 25px; }
   .page .sidebar {
     grid-area: sidebar;
-    padding: 1em 1em 1em 0em;
+    padding: 25px 25px 25px 5px;
     border-style: solid;
     border-color: #a0a0a0;
     border-width: 0px 0px 0px 1px; }

@@ -1,5 +1,7 @@
 @import 'theme/styles/theme';
 
+$BORDER_PADDING: 25px;
+
 .page {
   color: $COLOR_BRAND_BLACK;
   font-family: $FONT;
@@ -10,12 +12,12 @@
 
   .mainbar {
     grid-area: mainbar;
-    padding: 1em 0em 1em 1em;
+    padding: $BORDER_PADDING 0px $BORDER_PADDING $BORDER_PADDING;
   }
 
   .sidebar {
     grid-area: sidebar;
-    padding: 1em 1em 1em 0em;
+    padding: $BORDER_PADDING $BORDER_PADDING $BORDER_PADDING 5px;
     border-style: solid;
     border-color: #a0a0a0;
     border-width: 0px 0px 0px 1px;
