@@ -19,7 +19,7 @@ export default class Education extends Component {
                 <div className="content">
                   <p className="institution">National University of Singapore</p>
                   <p className="description">Bachelor of Computing(Honours) in Computer Science</p>
-                  <p className="score">Cumulative Average Point: 3.93 / 5.00</p>
+                  <p className="score">Cumulative Average Point: 3.93</p>
                 </div>
               </td>
             </tr>
