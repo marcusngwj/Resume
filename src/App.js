@@ -10,6 +10,9 @@ class App extends Component {
       <div className="page">
         <MainBar />
         <SideBar />
+        <footer>
+        	This resume is created using React.js
+        </footer>
       </div>
     );
   }
