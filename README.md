@@ -1,6 +1,6 @@
 # Welcome, Take a copy!
 
-You may wish to download a copy of this resume from [releases](https://github.com/CS2102Group18/CS2102/releases)
+You may wish to download a copy of this resume from [releases](https://github.com/marcusngwj/Resume/releases)
 
 ## How this resume is created
 
