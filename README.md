@@ -15,8 +15,8 @@ Open [http://localhost:3000](http://localhost:3000) in Chrome to view.
 
 Attempt to print the webpage but change the destination to save as PDF.
 
-Under 'More Settings', <br>
+#### Under 'More Settings'
 Paper size: A4<br>
 Margins: None<br>
 Scale: 100<br>
-Options: [x] Background graphics
+Options: Background graphics
