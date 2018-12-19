@@ -5,6 +5,7 @@ import LanguageProficiency from './components/language/LanguageProficiency';
 import ProgrammingSkills from './components/programming_skills/ProgrammingSkills';
 import Tools from './components/tools/Tools';
 import TechnicalExperiences from './components/technical_experiences/TechnicalExperiences';
+import QrCode from './components/qr_code/QrCode';
 
 export default class SideBar extends Component {
   // constructor(props) {
@@ -19,6 +20,7 @@ export default class SideBar extends Component {
         <ProgrammingSkills />
         <Tools />
         <TechnicalExperiences />
+        <QrCode />
       </div>
     );
   }

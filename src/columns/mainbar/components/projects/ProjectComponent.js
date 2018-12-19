@@ -14,6 +14,13 @@ export default class ProjectComponent extends Component {
         <p className="title">Projects</p>
         <table>
           <tbody>
+            <Project period="Dec 2018 – Present"
+                       role="Web Developer" 
+                       name="Personal Portfolio Website"
+                description={['Design and create website using <strong>React</strong>',
+                              'Host website on <strong>Google Firebase</strong>',
+                              'Use <strong>MDC React library</strong> to implement Google Material Design']}/>
+
             <Project period="Aug 2018 – Nov 2018"
                        role="Full Stack Web Developer" 
                        name="Crowdfunding Website"
@@ -43,17 +50,6 @@ export default class ProjectComponent extends Component {
                               'Incorporated use of Genius API',
                               'Deployed on <strong>Heroku</strong>']}/>
 
-            <Project period="Aug 2016 – Nov 2016"
-                       role="Software Developer" 
-                       name="Taskell (Desktop Task Manager Application)"
-                description={['Led a team of 4 to the completion of the project',
-                              'Devised workflow plan for the team',
-                              'Responsible for code quality of the overall project',
-                              'Handled initial refactoring so that project stems from a solid foundation',
-                              'Designed parser component & provided flexibility in commands',
-                              'Contributed to overall documentation in <strong>Markdown</strong>',
-                              'Designed project website']}/>
-
             <Project period="May 2016 – Aug 2016"
                        role="Android Mobile Developer" 
                        name="Bomb Squad (Multiplayer Android Mobile Quiz Game)"
@@ -66,3 +62,16 @@ export default class ProjectComponent extends Component {
     );
   }
 }
+
+
+// Archive Projects
+// <Project period="Aug 2016 – Nov 2016"
+//                        role="Software Developer" 
+//                        name="Taskell (Desktop Task Manager Application)"
+//                 description={['Led a team of 4 to the completion of the project',
+//                               'Devised workflow plan for the team',
+//                               'Responsible for code quality of the overall project',
+//                               'Handled initial refactoring so that project stems from a solid foundation',
+//                               'Designed parser component & provided flexibility in commands',
+//                               'Contributed to overall documentation in <strong>Markdown</strong>',
+//                               'Designed project website']}/>

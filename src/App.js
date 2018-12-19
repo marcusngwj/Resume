@@ -11,7 +11,7 @@ class App extends Component {
         <MainBar />
         <SideBar />
         <footer>
-        	This resume is created using React.js
+        	This resume was created using React.js
         </footer>
       </div>
     );

@@ -1,0 +1,28 @@
+@import 'theme/styles/theme';
+
+.qr-code-section {
+  margin-top: 5.5rem;
+  padding-left: $SIDEBAR_COMPONENT_PADDING_LEFT;
+
+  .qr-code-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 10rem;
+    }
+  }
+  
+  .url-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .url {
+      font-size: 0.75rem;
+      padding: 0;
+      margin: 0;
+    }
+  }  
+}
