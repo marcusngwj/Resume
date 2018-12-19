@@ -1,0 +1,41 @@
+@import 'theme/theme';
+@import './paper/mixins';
+
+$BORDER_PADDING: 25px;
+
+.App {
+  .page1 {
+    @include paper-color(white);
+    .page-content {
+      color: $COLOR_BRAND_BLACK;
+      font-family: $FONT;
+      display:grid;
+      grid-template-areas:
+  	    'mainbar mainbar mainbar sidebar'
+        'footer footer footer footer';
+      grid-gap:5px;
+
+      .mainbar {
+        grid-area: mainbar;
+        padding: $BORDER_PADDING 0cm $BORDER_PADDING $BORDER_PADDING;
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+    	padding: $BORDER_PADDING $BORDER_PADDING $BORDER_PADDING 5px;
+    	border-style: solid;
+    	border-color: #a0a0a0;
+    	border-width: 0px 0px 0px 1px;
+  	  }
+
+      footer {
+	    grid-area: footer;
+	    font-style: italic;
+	    text-align: right;
+	    font-size: 9px;
+	    margin-top: 4.5rem;
+	    padding: 0px $BORDER_PADDING 3px 0px;
+	  }
+    }
+  }
+}

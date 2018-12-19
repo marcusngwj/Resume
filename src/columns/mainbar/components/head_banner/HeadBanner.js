@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import './style.css';
+import './style.scss';
 import avatar from './img/avatar.png';
 import droppin from './img/droppin.png';
-
 
 export default class HeadBanner extends Component {
   // constructor(props) {

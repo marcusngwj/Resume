@@ -1,0 +1,5 @@
+@mixin paper-color($color) {
+  .paper {
+    background-color: $color;
+  }
+}

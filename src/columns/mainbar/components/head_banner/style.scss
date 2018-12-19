@@ -1,4 +1,4 @@
-@import 'theme/styles/theme';
+@import '../../../../theme/theme.scss';
 
 .head-banner {
   .avatar {
@@ -12,6 +12,7 @@
 
   .content {
   	padding-left: 10px;
+    
 
   	#fullname {
   	  padding: 0;

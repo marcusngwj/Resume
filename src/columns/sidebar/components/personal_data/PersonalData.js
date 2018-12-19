@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './style.css';
+import './style.scss';
 import phoneIcon from './img/phone.png';
 import mailIcon from './img/mail.png';
 import githubIcon from './img/github.png';
