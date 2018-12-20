@@ -22,20 +22,20 @@ $BORDER_PADDING: 25px;
 
       .sidebar {
         grid-area: sidebar;
-    	padding: $BORDER_PADDING $BORDER_PADDING $BORDER_PADDING 5px;
-    	border-style: solid;
-    	border-color: #a0a0a0;
-    	border-width: 0px 0px 0px 1px;
+    	  padding: $BORDER_PADDING $BORDER_PADDING $BORDER_PADDING 5px;
+    	  border-style: solid;
+    	  border-color: #a0a0a0;
+    	  border-width: 0px 0px 0px 1px;
   	  }
 
       footer {
-	    grid-area: footer;
-	    font-style: italic;
-	    text-align: right;
-	    font-size: 9px;
-	    margin-top: 4.5rem;
-	    padding: 0px $BORDER_PADDING 3px 0px;
-	  }
+	      grid-area: footer;
+	      font-style: italic;
+	      text-align: right;
+	      font-size: 9px;
+	      margin-top: 4.5rem;
+	      padding: 0px $BORDER_PADDING 3px 0px;
+	    }
     }
   }
 }
