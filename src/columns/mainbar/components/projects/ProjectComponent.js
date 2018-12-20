@@ -17,7 +17,7 @@ export default class ProjectComponent extends Component {
             <Project period="Dec 2018 – Present"
                        role="Web Developer" 
                        name="Personal Portfolio Website"
-                description={['Design and create website using <strong>React</strong>',
+                description={['Design and create <strong>Single Page Application</strong> using <strong>React</strong>',
                               'Host website on <strong>Google Firebase</strong>',
                               'Use <strong>MDC React library</strong> to implement Google Material Design']}/>
 
