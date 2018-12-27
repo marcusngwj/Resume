@@ -36,7 +36,7 @@ export default class Tools extends Component {
               </tr>
               <tr>
                 <td>Dbeaver</td>
-                <td>Figma</td>
+                <td>Firebase</td>
               </tr>
             </tbody>
           </table>
